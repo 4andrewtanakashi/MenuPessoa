@@ -1,0 +1,9 @@
+//Na pasta do frontEnd:
+ln -s ../resources/static ./build
+
+//Toda alteração no projeto refazer os passos abaixo:
+npm run build
+cd ../../.. 
+mvn package
+cd target
+java -jar <NOME_PROJETO>t-0.0.1-SNAPSHOT.jar

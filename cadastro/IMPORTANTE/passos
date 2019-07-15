@@ -1,0 +1,9 @@
+add in file build.gradle (Note: use spring --version, for see your version):  
+--- in plugins add : id 'org.springframework.boot' version <'your version springBoot'>
+--- In anyplace -> apply plugin: 'io.spring.dependency-management'
+
+command line for all modify project:
+./gradlew build --scan
+gradle build
+gradle wrapper
+./gradlew bootRun

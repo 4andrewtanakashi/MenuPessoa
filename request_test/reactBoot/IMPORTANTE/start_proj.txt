@@ -1,0 +1,6 @@
+spring init -d=web --build=gradle -x reactBoot
+cd src/main/
+sudo npm install -g create-react-app
+create-react-app script
+
+
